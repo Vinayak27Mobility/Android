@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_time_out">The request timed out</string>
+    <string name="error_no_connection">No internet connection</string>
+    <!--<string name="error_auth_failure">Authentication failed</string>-->
+    <string name="error_server">Server Error, please try later.</string>
+    <string name="error_network">Network Error, please try later.</string>
+    <string name="wrong_api_key">Wrong Api Key.</string>
+    <string name="error_parse">Parse Error, please try later.</string>
+</resources>

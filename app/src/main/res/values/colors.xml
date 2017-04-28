@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<item name="light_blue" type="color">#EBF5FF</item>-->
+    <!--<item name="blue" type="color">#FF33B5E5</item>-->
+    <!--<item name="white" type="color">#FFFFFFFF</item>-->
+    <!--<item name="black" type="color">#FF000000</item>-->
+    <!--<item name="gray" type="color">#FFCCCCCC</item>-->
+    <!--<item name="fragment_background" type="color">#EEEEEE</item>-->
+    <!--<item name="grayFontColor" type="color">#FF424242</item>-->
+    <!--<item name="grayButtonColor" type="color">#FFA7A7A7</item>-->
+    <!--<item name="grayDark" type="color">#FF666666</item>-->
+    <!--<item name="red" type="color">#FF0000</item>-->
+
+    <!--&lt;!&ndash;<item name="txt_dark" type="color">#5f5f5f</item>&ndash;&gt;-->
+    <!--<item name="txt_blue" type="color">#598dce</item>-->
+
+    <!--<item name="master_fragment_note" type="color">@color/black</item>-->
+
+    <!--<item name="colorPrimary" type="color">#5191CD</item>-->
+    <!--<item name="colorPrimaryDark" type="color">#002D62</item>-->
+    <!--<item name="colorAccent">#002D62</item>-->
+
+    <!-- <item name="colorPrimary" type="color">#008FFC</item>
+     <item name="colorPrimaryDark" type="color">#FF1D3E69</item>-->
+    <!--<color name="tabsScrollColor">#8A140E</color>-->
+    <!--<color name="divider_grey">#E5E5E5</color>-->
+    <item name="colorPrimary" type="color">#5191CD</item>
+    <item name="colorPrimaryDark" type="color">#002D62</item>
+    <item name="white" type="color">#FFFFFFFF</item>
+    <item name="grayButtonColor" type="color">#FFA7A7A7</item>
+    <item name="fragment_background" type="color">#EEEEEE</item>
+    <item name="black" type="color">#FF000000</item>
+    <item name="grayDark" type="color">#FF666666</item>
+
+    <color name="divider_grey">#A8A8A8</color>
+    <color name="btnPress">#a7ffeb</color>
+
+    <color name="button_blue">#295799</color>
+    <color name="button_gray">#A7A7A7</color>
+    <color name="greyLoginText">#7F7F7F</color>
+    <color name="greyHintText">#757474</color>
+    <!--<color name="light_gray_background">#F7F7F7</color>-->
+
+    <!-- Login Colorful line colors   -->
+    <color name="colorful_line_first">#598DCE</color>
+    <color name="colorful_line_second">#8CCA39</color>
+    <color name="colorful_line_third">#152C62</color>
+    <color name="colorful_line_fourth">#6fA02E</color>
+    <color name="colorful_line_fifth">#295799</color>
+
+    <!-- Menu line colors   -->
+    <color name="colorful_line_blue">#598DCE</color>
+
+    <!-- Theme Colors -->
+    <color name="services_dark">#598DCE</color>
+    <color name="services_light">#D6E2F2</color>
+    <color name="services_status_bar">#4D79B0</color>
+
+    <color name="tickets_dark">#8CCA39</color>
+    <color name="tickets_light">#E2F2CF</color>
+    <color name="tickets_status_bar">#73A431</color>
+
+    <color name="invoices_dark">#152D63</color>
+    <color name="invoices_light">#D6E2F2</color>
+    <color name="invoices_status_bar">#0A2053</color>
+
+    <color name="quotes_dark">#295899</color>
+    <!--<color name="quotes_light">#D6E2F2</color>-->
+    <color name="quotes_status_bar">#19427d</color>
+
+    <color name="contact_us_dark">#70A12E</color>
+    <!--<color name="contact_us_light">#E2F2CF</color>-->
+    <color name="contact_us_status_bar">#51791C</color>
+    <color name="blacl">#000000</color>
+
+    <color name="help_dark">#A7A7A7</color>
+    <color name="help_light">#F6F6F6</color>
+    <color name="help_status_bar">#828282</color>
+
+    <!-- Theme Colors End-->
+
+    <color name="grey_text">#A7A7A7</color>
+    <color name="grey_background">#E5E5E5</color>
+    <color name="site_list_item">#4D4D4D</color>
+
+    <!-- Help and Contact Us Colors -->
+    <color name="contact_us_help_blue_text">#4891FF</color>
+    <!--<item name="alpha_gray" type="color">#66CCCCCC</item>-->
+    <!--<color name="user_info_label">#757474</color>-->
+
+</resources>

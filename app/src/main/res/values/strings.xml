@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">GoRentJoy</string>
+    <string name="app_id">1013898195366281</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Captions -->
+    <string name="login_screen_caption">Log In</string>
+    <string name="login_hint_user">Enter name</string>
+    <string name="login_hint_user_email">Enter email</string>
+    <string name="login_hint_password">Enter password</string>
+    <string name="btn_login_caption">Log In</string>
+    <string name="btn_publish_caption">&#160;Publish Now&#160;</string>
+    <string name="btn_publish_final_caption">&#160;Publish&#160;</string>
+    <string name="forgot_password_caption">Forgot Password?</string>
+    <string name="register_caption">New user? <b>Register</b></string>
+
+    <string name="reg_screen_caption">Create account</string>
+    <string name="reg_hint_email">Enter email id</string>
+    <string name="reg_hint_password">Enter password</string>
+    <string name="reg_hint_confirm_password">Enter confirm password</string>
+    <string name="reg_btn_caption">Submit</string>
+    <string name="ok_btn_caption">Ok</string>
+    <string name="loading">Loading...</string>
+    <string name="reg_success">Registration successful, proceed to access?</string>
+    <string name="welcome">Welcome&#160;</string>
+    <string name="see_all_caption">See All</string>
+
+
+    <string name="add_ad_caption">Post a Free Ad</string>
+    <string name="add_ad_hint_title">Enter ad title</string>
+    <string name="add_ad_cate">Select category --></string>
+    <string name="add_ad_location">Select location --></string>
+    <string name="add_ad_hint_desc">Enter description</string>
+    <string name="add_ad_hint_price">Enter price</string>
+    <string-array name="price_mode">
+        <item>Select price mode</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string name="fetch_content_caption">Select One</string>
+    <string name="contact_caption">Contact Details</string>
+    <string name="cell_caption">Your cell number</string>
+    <string name="address_caption">Your address</string>
+
+
+
+    <string name="search_screen_caption">Search ad</string>
+
+    <string name="choose_camera">Camera</string>
+    <string name="choose_gallery">Gallery</string>
+    <string name="choose_replace">Replace</string>
+    <string name="choose_delete">Delete</string>
+    <string name="ad_detail_caption">Ad details</string>
+    <string name="call_btn_caption">Make Call</string>
+    <string name="msg_btn_caption">Send Message</string>
+    <string name="ad_price_caption">Price:&#160;</string>
+    <string name="ad_date_caption">Date:&#160;</string>
+    <string name="ad_location_caption">Location:&#160;</string>
+    <string name="ad_stock_caption">Stock:&#160;</string>
+    <string name="ad_hit_caption">Hits:&#160;</string>
+    <string name="ad_id_caption">Ad id:&#160;</string>
+    <string name="ad_popup_title">Complete action with:</string>
+    <string name="send_message">Messaging</string>
+    <string name="send_whatsapp">WhatsApp</string>
+
+
+    <string name="profile_header">(Recommended) This information is used while posting new ad from your side. Please prefer to add whats app number(s) and current address in contact information.</string>
+    <string name="profile_header1">Contact Information:</string>
+    <string name="profile_hint_mobile">Enter phone</string>
+    <string name="profile_hint_addmobile">Enter business phone (Optional)</string>
+    <string name="profile_city">Select Location</string>
+    <string name="profile_address">Enter address</string>
+    <string name="profile_pin">Enter pin</string>
+    <string name="profile_website">Website (Optional)</string>
+    <string name="btn_profile_caption">&#160;Update&#160;</string>
+
+    <string name="search_min">Min price</string>
+    <string name="search_max">Max price</string>
+
+    <string name="tou_caption">Legal</string>
+
+    <!--Alert -->
+    <string name="mandate">Please enter mandatory fields!</string>
+    <string name="email_not_valid">Please enter valid email!</string>
+    <string name="phone_not_valid">Please enter valid phone!</string>
+    <string name="desc_not_valid">Description must be at least 5 characters long!</string>
+    <string name="addphone_not_valid">Please enter valid business phone!</string>
+    <string name="pin_not_valid">Please enter valid pin!</string>
+    <!--<string name="website_not_valid">Please enter valid website!</string>-->
+    <string name="password_not_match">Password and confirm password should be same!</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="alert_success">Success</string>
+    <string name="alert_max_photo">You can add maximum %1$d photos.</string>
+
+    <!--Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">User Profile</string>
+    <string name="menu_store">My Store</string>
+    <string name="menu_cate">Categories</string>
+    <string name="menu_wish">Wish list</string>
+    <string name="menu_rate">Rate the App</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_tou">Terms Of Use</string>
+    <string name="menu_logout">Logout</string>
+
+
+
+    <!--Errors -->
+    <string name="error_alert_title">Alert</string>
+    <string name="error_no_network">Please check your internet connection and try again.</string>
+    <string name="error_server_failure">Server failed to process the request. Please try later.</string>
+    <string name="error_incorrect_password">Please check your user name and password.\nThe combination does not match our records.</string>
+    <string name="error_user_exist">User already exists.</string>
+    <string name="error_unidentified_server_error">Occurred some error on server.</string>
+    <string name="error_account_not_found">Account not found.</string>
+    <string name="error_cate">Please select category.</string>
+    <string name="error_loca">Please select location.</string>
+    <string name="error_sub_cate">Please select sub-category.</string>
+    <string name="error_price_mode">Please select price mode.</string>
+    <string name="no_data_available">No Data!</string>
+    <string name="no_data_found">No Data found!</string>
+    <string name="no_phone_found">Number not provided by renter!</string>
+
+    <!--Confirm -->
+    <string name="confirm_exit">You want to exit the app?</string>
+    <string name="discard_msg">Discard changes?</string>
+    <string name="confirm_logout">You want to logout the app?</string>
+</resources>

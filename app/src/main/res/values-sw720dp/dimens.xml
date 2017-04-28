@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <integer  name="coloumns">3</integer >
+    <dimen name="ad_size">188dp</dimen>
+    <dimen name="cam_size">141dp</dimen>
+
+    <dimen name="fab_margin">25dp</dimen>
+
+
+</resources>

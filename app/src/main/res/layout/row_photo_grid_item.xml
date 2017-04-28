@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <android.com.gorentjoy.ui.widgets.SquareImageView
+        android:id="@+id/adphotoid"
+        android:layout_width="@dimen/cam_size"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
+

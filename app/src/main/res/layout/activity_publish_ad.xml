@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/mainContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.com.gorentjoy.ui.widgets.MyGridView
+                    android:id="@+id/photolayoutid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_rect"
+                    android:horizontalSpacing="@dimen/activity_horizontal_margin"
+                    android:numColumns="3"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:verticalSpacing="@dimen/activity_horizontal_margin">
+
+                </android.com.gorentjoy.ui.widgets.MyGridView>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editlayouttitleid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edittitleid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/add_ad_hint_title"
+                        android:maxLength="50" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/textcateid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_ad_cate"
+                    android:theme="@style/MyButton" />
+
+                <Button
+                    android:id="@+id/textlocationid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/add_ad_location"
+                    android:theme="@style/MyButton" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editlayoutdescid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editdescid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/add_ad_hint_desc"
+                        android:inputType="textMultiLine"
+                        android:maxLength="1000"
+                        android:maxLines="3"
+                        android:minLines="3"
+                        android:scrollbars="vertical" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editlayoutpriceid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editpriceid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/add_ad_hint_price"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/spinnerpricemodeid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/price_mode"></Spinner>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/catelistid"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/contact_caption"
+                    android:textSize="@dimen/form_field_text_size" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editlayoutphoneid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editphoneid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/profile_hint_mobile"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/editlayoutaddressid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editaddressid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/profile_address"
+                        android:inputType="textPostalAddress"
+                        android:maxLength="100"
+                        android:maxLines="3"
+                        android:minLines="3" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/btnpublishid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerpricemodeid"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/btn_publish_caption"
+                    android:theme="@style/MyButton" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>
